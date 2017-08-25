@@ -1,0 +1,32 @@
+{
+  "name": "@d3-node/choropleth-us-counties",
+  "private": false,
+  "version": "0.0.1",
+  "description": "D3-Node Choropleth of US counties (with state boundaries)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3-node/choropleth-us-counties.git"
+  },
+  "keywords": [
+    "d3",
+    "node"
+  ],
+  "author": "Brad Oyler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3-node/choropleth-us-counties/issues"
+  },
+  "homepage": "https://github.com/d3-node/choropleth-us-counties#readme",
+  "devDependencies": {
+    "d3node-output": "0.0.9",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "d3-node": "1.1.1",
+    "topojson": "^3.0.0"
+  }
+}
